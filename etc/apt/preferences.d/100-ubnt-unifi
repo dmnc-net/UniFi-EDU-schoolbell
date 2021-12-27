@@ -1,0 +1,7 @@
+Package: unifi
+Pin: version 6.0.45*
+Pin-Priority: 1001
+
+Package: unifi
+Pin: version 6.1*
+Pin-priority: -1
