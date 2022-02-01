@@ -1,7 +1,15 @@
 # UniFi-EDU-schoolbell
 Schoolbell/PA system backend for UniFi-AC-EDU
 
-[Story behind this...](https://community.ui.com/stories/UAP-AC-EDU-for-a-schoolbell-and-PA-system-how-to-fix-it-with-Asterisk/865fe9c0-4caf-4885-aeac-74abfd56dbe3)
+`<TLDR>`[Story behind this...](story.md)`</TLDR>`
+
+## Requirements
+- Linux machine/VM/container or Raspberry Pi (version 4 recommended, also with PoE hat)
+- Asterisk
+- UniFi Controller (mine is running on the same system, not required)
+- EDUs
+- G.711 A-law 8-bit, 8kHz, 1 channel audio files (try [Jamendo Music](https://www.jamendo.com/start) for some tunes and respect their CC licenses)
+- this repo
 
 ## Setup
 - Adjust the configuration files:
